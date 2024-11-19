@@ -1,0 +1,28 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 300px;  /* Bildgröße */
+    height: 300px; /* Bildgröße */
+    border-radius: 50%; /* Rundes Bild */
+    object-fit: cover; /* Skaliert das Bild proportional */
+    margin-bottom: 20px; /* Abstand zu den Buttons */
+    display: block; /* Sicherstellen, dass das Bild blockartig angezeigt wird */
+}
+.ion-button {
+    margin: 10px 0; /* Abstand zwischen den Buttons*/
+    width: 80%; /* Schaltflächenbreite anpassen*/
+}
+
+
+.leaflet-container {
+    height: 300px;
+    width: 100%;
+}

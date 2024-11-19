@@ -1,0 +1,24 @@
+.zoom-to-location-button {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    z-index: 1000; /* Über die Karte legen */
+    padding: 10px 15px;
+    background-color: #007bff; /* Blau */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.zoom-to-location-button:hover {
+    background-color: #0056b3; /* Dunkleres Blau bei Hover */
+}
+
+.zoom-to-location-button:active {
+    background-color: #003f7f; /* Noch dunkler bei Klick */
+}
